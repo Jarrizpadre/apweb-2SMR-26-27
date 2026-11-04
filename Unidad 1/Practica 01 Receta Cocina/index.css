@@ -1,0 +1,32 @@
+
+body {
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+header { /*Titulo de recetas de cocina */
+    background-color: rgb(235, 200, 5);
+    margin: 0%; /*Elimina todo el margen del h1 */
+    text-align: center;
+    color: #fbfbfb;
+    display: flex;
+}
+
+main {
+    width: calc(100% - 2 rem); 
+    max-width: 500px;
+
+    margin: 0 auto;
+    flex: 1;
+
+    padding: 2 rem;
+    background-color: #fbfbfb;
+    box-shadow: 0;
+}
