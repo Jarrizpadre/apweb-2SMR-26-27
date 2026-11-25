@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Francisco Miguel Ramírez Gaspar">
     <title>Tienda de Milhouse</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
-        <div>
+        <div class "cabezera-imagen">
             <img src="imagenes/milhouse.png"
             alt="Milhouse">
-            <h1>Todo a 1000$ house</h1>
-            <p>Tu tienda de confianza</p>
+            <div>
+                <h1>Todo a 1000$ house</h1>
+                <p>Tu tienda de confianza</p>
+              </div>
         </div>
         <nav>
             <ul>
@@ -21,38 +25,49 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="Productos">
         <h2>Nuestros productos</h2>
-        <div class="tarjeta">
-            <img src="imagenes/camara (1).png" alt="camara digital">
-            <h3>Cámara Nikon Coolpix L820</h3>
-            <p class="descripcionproducto">Cámara de fotos Nikon Coolpix L820</p>
-            <p class="precio">1000$</p>
+    <div class="contenedor-principal">
+        <h1>Elije el producto que más te guste de nuestra tienda</h1>
+        <div class="contenedor-tarjetas-productos">
+            <div class="tarjeta">
+                <img src="imagenes/camara (1).png" alt="camara digital">
+                <h3>Cámara Nikon Coolpix L820</h3>
+                <p class="descripcionproducto">Cámara de fotos Nikon Coolpix L820</p>
+                <p class="precio">1000$</p>
+            </div>
+
+            <div class="tarjeta">
+                <img src="imagenes/diskette.png" alt="diskette">
+                <h3>diskette de 3 1/2</h3>
+                <p class="descripcionproducto">Diskettes de 3 1/2 para guardar tus fotos</p>
+                <p class="precio">1000$</p>
+            </div>
+
+            <div class="tarjeta">
+                <img src="imagenes/mouse.png" alt="mouse">
+                <h3>Ratón de ordenador</h3>
+                <p class="descripcionproducto">Fantastico ratón de ordenador con luces de colores</p>
+                <p class="precio">1000$</p>
+            </div>
+
+            <div class="tarjeta">
+                <img src="imagenes/pendrive.png" alt="Pen">
+                <h3>Pen drive de 32GB</h3>
+                <p class="descripcionproducto">Pen drive HP de color azul de 32 GB</p>
+                <p class="precio">1000$</p>
+            </div>
+
+            <div class="tarjeta">
+                <img src="imagenes/milhouse.png" alt="milhouse">
+                <h3>Producto sorpresa</h3>
+                <p class="descripcionproducto">El producto más sorprendente de nuestra tienda</p>
+                <p class="precio">1000$</p>
+            </div>
         </div>
-        <div class="tarjeta">
-            <img src="imagenes/diskette.png" alt="diskette">
-            <h3>diskette de 3 1/2</h3>
-            <p class="descripcionproducto">Diskettes de 3 1/2 para guardar tus fotos</p>
-            <p class="precio">1000$</p>
-        </div>
-        <div class="tarjeta">
-            <img src="imagenes/mouse.png" alt="mouse">
-            <h3>Ratón de ordenador</h3>
-            <p class="descripcionproducto">Fantastico ratón de ordenador con luces de colores</p>
-            <p class="precio">1000$</p>
-        </div>
-        <div class="tarjeta">
-            <img src="imagenes/pendrive.png" alt="Pen">
-            <h3>Pen drive de 32GB</h3>
-            <p class="descripcionproducto">Pen drive HP de color azul de 32 GB</p>
-            <p class="precio">1000$</p>
-        </div>
-        <div class="tarjeta">
-            <img src="imagenes/milhouse.png" alt="milhouse">
-            <h3>Producto sorpresa</h3>
-            <p class="descripcionproducto">El producto más sorprendente de nuestra tienda</p>
-            <p class="precio">1000$</p>
-        </div>
+    </div>
     </main>
+    <footer id="Contacto"><p>© 2026 Página web de Milhouse. Todos los derechos reservados</p>
+    </footer>
 </body>
 </html>
