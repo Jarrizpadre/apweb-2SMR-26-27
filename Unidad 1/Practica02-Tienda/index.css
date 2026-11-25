@@ -52,7 +52,7 @@ main h1 {
     text-align: center;
 }
 
-contenedor-tarjetas-productos{
+.contenedor-tarjetas-productos{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
